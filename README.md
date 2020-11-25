@@ -1,6 +1,8 @@
 # Unity Tweening
 A simple script that allows complex tweening animations in Unity.
 
+Download the Unity Package from [**Releases**](https://github.com/DavidF-Dev/Unity-Tweening/releases/latest) tab.
+
 ## Basic Use
 The Tween class contains a collection of static methods for tweening multiple data types.
 For example, `Tween.DoTween(Color.black, Color.white, 2f, delegate (Color c) { spriteRenderer.color = c; });`
